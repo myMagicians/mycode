@@ -1,0 +1,6 @@
+# mycode
+学习
+1.下载并解压Redise安装包
+2.配置config文件（设置Redis端口、密码、日志等）
+3.启动Redis以及更新配置文件
+Redis-server  Redis.config
