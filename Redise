@@ -4,7 +4,8 @@
 2.配置config文件（设置Redis端口、密码、日志等）
 3.启动Redis以及更新配置文件
 Redis-server  Redis.config
-
+4.下载客户端 rdm-2021.9.zip并安装//在windows
+https://github.com/lework/RedisDesktopManager-Windows/releases
 
 
 
