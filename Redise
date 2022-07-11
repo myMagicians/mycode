@@ -55,6 +55,38 @@ EXPIRE key  3    设置key存活时间
 TTL   key   查询key存活时间
 
 
+String  字符数据命令
+set key value  存入或修改value值
+
+get  key   取key
+
+mset  key key  ... 批量存入
+
+mget   key key  .. 批量取
+
+
+incr   key 让整形自增1
+
+incrby  key n  让整形自增n
+
+incrby float  key  n 让浮点数自增n
+
+setnx   key   只添加 key 没有值
+
+
+setex  key  n   value  添加key 设置有效期 为n  值为value
+
+
+层级存入
+
+set  name:ximu:user  value
+
+
+
+
+Hash 数据命令
+
+
 
 
 
