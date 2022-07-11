@@ -106,6 +106,45 @@ hsetnx  判断key是否存在
 
 list  数据命令
 
+lpush key  value   左插入
+lpop key  取值
+
+
+rpush key  value   右插入
+
+rpop key  取值
+
+
+
+
+blpop/brpop 阻塞获取
+
+
+
+set   数据命令
+
+sadd     增加数据
+
+smembers  查询
+
+
+
+SortedSet   数据命令
+
+
+zadd
+zrem 删除
+
+zscore  获取score排名
+
+
+
+
+
+
+
+
+
 
 
 
