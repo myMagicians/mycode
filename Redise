@@ -81,24 +81,26 @@ setex  key  n   value  添加key 设置有效期 为n  值为value
 
 set  name:ximu:user  value
 
-
+get name:ximu:user  
 
 
 Hash 数据命令
 
 
+Hset  name:ximu:user  value
+
+Hget name:ximu:user  
 
 
+Hmset  name:ximu:user  value   批量存入
 
+Hmget name:ximu:user  批量取
 
+Hgetall  name:ximu  获取所有key
 
+Hkeys  name:ximu   获取name:ximu下所有key
 
-
-
-
-
-
-
+Hvals  key  获取hash类型中key所有 值
 
 
 
