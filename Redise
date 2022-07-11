@@ -1,5 +1,6 @@
 # mycode
 学习
+##一安装使用
 1.下载并解压Redise安装包
 
 2.配置config文件（设置Redis端口、密码、日志等）
@@ -14,23 +15,44 @@ Redis-cli -h 链接地址 -p 6379 -a 密码
 https://github.com/lework/RedisDesktopManager-Windows/releases
 
 
+##二数据结构与命令
+
+.基本类型
+String 字符型
+
+Hash   哈希链表
+
+List   链表型
+
+Set    无序集合不能重复
+
+SortedSet  有序集合不能重复
+
+.特殊类型
+
+GEO  地理位置  {A:(120.3,30.5)}
+
+按位存储
+BitMap   1001011111101010101
+
+HyperLog     1001011111101010101
 
 
 
+.常见命令
+help @generic 查找所有命令使用方式
 
+help @String 查找String命令所有使用方式
 
+keys  *   模糊查询所有key
 
+DEL key   删除key
 
+EXISTS key 判断key是否存在
 
+EXPIRE key  3    设置key存活时间
 
-
-
-
-
-
-
-
-
+TTL   key   查询key存活时间
 
 
 
