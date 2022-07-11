@@ -101,7 +101,7 @@ Hgetall  name:ximu  获取所有key
 Hkeys  name:ximu   获取name:ximu下所有key
 
 Hvals  key  获取hash类型中key所有 值
-
+hsetnx  判断key是否存在
 
 
 
